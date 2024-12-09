@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %} about {% endblock %}
+
+{% block body %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ice Cream </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+        .about-section {
+            background: #d4edda;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about-section h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            color: #555;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .team img {
+            border-radius: 50%;
+        }
+        .team h4 {
+            margin-top: 15px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+
+<!-- About Us Section -->
+<section class="about-section">
+    <h1>About Us</h1>
+    <p>
+        At Ice Cream Delight, we believe in crafting joy with every scoop. Founded with a passion for creating delectable desserts, we specialize in a wide range of ice creams, shakes, and cakes made from the finest ingredients.
+        Our mission is to spread happiness through our carefully crafted flavors that cater to every sweet tooth.
+    </p>
+</section>
+
+<!-- Our Values Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Our Core Values</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <h4>Quality Ingredients</h4>
+            <p>We use only the finest and freshest ingredients to ensure every bite is pure bliss.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Innovation</h4>
+            <p>We constantly experiment with new flavors and creations to delight our customers.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Community</h4>
+            <p>We are dedicated to giving back and spreading joy in the communities we serve.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Our Team Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Meet the Team</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/150" alt="Team Member 1" class="img-fluid">
+            <h4>Alex Brown</h4>
+            <p>Founder & CEO</p>
+        </div>
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/150" alt="Team Member 2" class="img-fluid">
+            <h4>Sarah Miller</h4>
+            <p>Head Chef</p>
+        </div>
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/150" alt="Team Member 3" class="img-fluid">
+            <h4>John Smith</h4>
+            <p>Marketing Manager</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+{% endblock %}
